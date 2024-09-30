@@ -19,11 +19,18 @@ function init() {
     gl.clearColor(0.2, 0.2, 0.2, 1.0);
     gl.enable(gl.DEPTH_TEST);
 
+    ms = new MatrixStack();
 
     tetrahedron = new Tetrahedron(gl);
+    tetrahedron.color = vec4(0.0, 1.0, 0.0, 1.0);
+
     sphere = new Sphere(gl, 18, 9);
+    sphere.color = vec4(0.778, 0.928, 0.245, 1.0);
+
     cone = new Cone(gl, 36);
-    ms = new MatrixStack();
+    cone.color = vec4(0.434, 0.346, 0.676, 1.0);
+
+
 
     render();
 }
@@ -53,6 +60,7 @@ function render() {
 // *****************************************************************************************
 // Sphere
     ms.push();
+
     ms.rotate(angle, [0, 1, 0]);
     ms.translate([-0.25, 0.5, 0.0]);
     ms.scale(0.1);
@@ -77,6 +85,4 @@ function render() {
 }
 
 window.onload = init;
-
-
 
