@@ -1,0 +1,17 @@
+Project Overview
+
+well since making Crossy Road 2 seems to be beyond the scope of everything feasible my project that i have going for me in my mind's eye is to have 6 duck figures moving in a circular motion with a figure of a U.S. president on the outboard side swimming in a pool of water along with the ducks. Though I don't know how feasible this is. Just what I'd like to do. No game. I don't know where I'll get the models. "God's eye view." some sort of illumination i'm sure will be involved.
+
+Project Schedule
+
+Week 1 - look for similar projects for inspiration, and find models from the Internet
+
+Week 2 - load all models, position with transforms
+
+Week 3 - incorporate body of water, set up lighting and add decoration.
+
+Week 4 - polish, put together project presentation and marvel at it's beauty.
+
+Project Technical Requirements
+
+I intend to use Three.js and JavaScript.
