@@ -1,0 +1,1 @@
+I had a 155MB .glb file that i was unable to upload due to git's 25 and 100 mb file limits :(
